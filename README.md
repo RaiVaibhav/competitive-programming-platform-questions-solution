@@ -1,1 +1,1 @@
-Contains solutions of  competitive programming platform questions
+solutions of  competitive programming platform questions
