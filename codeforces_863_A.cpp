@@ -4,23 +4,23 @@ using namespace std;
 #define ll long long 
  int main()
  {
- 	int i;
- 	string s;
- 	cin>>s;
- 	int l = s.length();
+ 	 int i,l;
+ 	 string s;
+ 	 cin>>s;
+ 	 l = s.length();
 
- 	for(i= l-1;i>=0;i--)
- 	{
- 		if(s[i]=='0')
- 			s.pop_back();
- 		else
- 			break;
- 	}
+ 	 for(i= l-1;i>=0;i--)
+ 	 {
+ 		 if(s[i]=='0')
+ 			 s.pop_back();
+ 		 else
+ 			 break;
+ 	 }
 
- 	if (s == string(s.rbegin(), s.rend()))
- 		cout<<"YES";
- 	else
- 		cout<<"NO";
-
- 	return 0;
+ 	 if (s == string(s.rbegin(), s.rend()))
+ 		 cout<<"YES";
+ 	 else
+ 		 cout<<"NO";
+  
+   return 0;
  }
